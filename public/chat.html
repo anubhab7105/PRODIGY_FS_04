@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Chat</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="chat-container">
+    <div class="header">
+      <h1>Simple Chat</h1>
+      <div id="userStatus">Online: <span id="onlineCount">0</span></div>
+    </div>
+    
+    <div class="chat-history" id="chatHistory"></div>
+    
+    <div class="input-area">
+      <div id="typingIndicator"></div>
+      <div class="input-group">
+        <input type="text" id="messageInput" placeholder="Type your message..." autocomplete="off">
+        <button id="sendButton">Send</button>
+      </div>
+    </div>
+  </div>
+  
+  <script src="chat.js"></script>
+</body>
+</html>
